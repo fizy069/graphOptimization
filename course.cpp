@@ -4,10 +4,13 @@ Course::Course()
 {
 }
 int Course::totalCourses = 0;
+int Course::totalUGCDCCourses = 0;
+int Course::totalUGElectCourses = 0;
+int Course::totalHDCDCCourses = 0;
+int Course::totalHDElectCourses = 0;
 Course::Course(string courseName)
 {
     name = courseName;
-    priorityNo = 0; // Could be used for some algorithm
     creditsAvailableInCourse = 1;
     popular = 0;
     totalCourses++;

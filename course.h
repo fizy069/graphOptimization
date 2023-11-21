@@ -9,10 +9,14 @@ class Course
 {
 public:
     string name;
-    int priorityNo;
+
     int popular;
     double creditsAvailableInCourse;
     static int totalCourses;
+    static int totalUGCDCCourses;
+    static int totalUGElectCourses;
+    static int totalHDCDCCourses;
+    static int totalHDElectCourses;
 
     Course();
     Course(string courseName);
