@@ -9,7 +9,7 @@ class Course
 {
 public:
     string name;
-
+    int courseType;
     int popular;
     double creditsAvailableInCourse;
     static int totalCourses;
@@ -19,7 +19,7 @@ public:
     static int totalHDElectCourses;
 
     Course();
-    Course(string courseName);
+    Course(string courseName, int coursetype);
     void showCourse();
 };
 #endif

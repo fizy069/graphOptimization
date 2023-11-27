@@ -30,9 +30,16 @@ void showCourses(Course UGCDCcourses[], Course UGELECTcourses[], Course HDCDCcou
     }
 }
 
-void showProfessors(Professor professors[], int n)
+// void showProfessors(Professor professors[], int n)
+// {
+//     for (int i = 0; i < n; i++)
+//     {
+//         professors[i].getDetails();
+//     }
+// }
+void showProfessors(vector<Professor> professors)
 {
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < professors.size(); i++)
     {
         professors[i].getDetails();
     }
@@ -74,34 +81,51 @@ void assigningHDELECTcourses(Course courses[], int n)
 int main()
 {
 
-    // Course courses[] = {Course("UGCDC1"), Course("UGCDC2"), Course("UGCDC3"),
-    //                     Course("UGCDC4"), Course("UGELECT1"), Course("UGELECT2"), Course("UGELECT3"),
-    //                     Course("UGELECT4"), Course("HDCDC1"), Course("HDCDC2"), Course("HDCDC3"),
-    //                     Course("HDCDC4"), Course("HDELECT1"), Course("HDELECT2"), Course("HDELECT3"),
-    //                     Course("HDELECT4")};
-    Course UGCDCcourses[] = {Course("UGCDC1"), Course("UGCDC2"), Course("UGCDC3"), Course("UGCDC4")};
-    Course UGELECTcourses[] = {Course("UGELECT1"), Course("UGELECT2"), Course("UGELECT3"), Course("UGELECT4")};
-    Course HDCDCcourses[] = {Course("HDCDC1"), Course("HDCDC2"), Course("HDCDC3"), Course("HDCDC4")};
-    Course HDELECTcourses[] = {Course("HDELECT1"), Course("HDELECT2"), Course("HDELECT3"), Course("HDELECT4")};
+      Course UGCDCcourses[] = {Course("UGCDC1", 1), Course("UGCDC2", 1), Course("UGCDC3", 1), Course("UGCDC4", 1)};
+    Course UGELECTcourses[] = {Course("UGELECT1", 2), Course("UGELECT2", 2), Course("UGELECT3", 2), Course("UGELECT4", 2)};
+    Course HDCDCcourses[] = {Course("HDCDC1", 3), Course("HDCDC2", 3), Course("HDCDC3", 3), Course("HDCDC4", 3)};
+    Course HDELECTcourses[] = {Course("HDELECT1", 4), Course("HDELECT2", 4), Course("HDELECT3", 4), Course("HDELECT4", 4)};
 
     assigningUGCDCcourses(UGCDCcourses, sizeof(UGCDCcourses) / sizeof(UGCDCcourses[0]));
     assigningUGELECTcourses(UGELECTcourses, sizeof(UGELECTcourses) / sizeof(UGELECTcourses[0]));
     assigningHDCDCcourses(HDCDCcourses, sizeof(HDCDCcourses) / sizeof(HDCDCcourses[0]));
     assigningHDELECTcourses(HDELECTcourses, sizeof(HDELECTcourses) / sizeof(HDELECTcourses[0]));
 
-    Professor professors[] = {
-        Professor("Michael", {3, 1, 2}, {2, 0, 1}, {2, 3, 0}, {3, 1, 2}, 1),
-        Professor("Mahir", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1),
-        Professor("Jainam", {2, 3, 0}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1)};
+    // Professor professors[] = {
+    //     Professor("Prof1", {3, 1, 2}, {2, 0, 1}, {2, 3, 0}, {3, 1, 2}, 1.5),
+    //     Professor("Prof2", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 0.5),
+    //     Professor("Prof3", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
+    //     Professor("Prof4", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
+    //     Professor("Prof5", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1}, 0.5),
+    //     Professor("Prof6", {0, 1, 2}, {2, 3, 1}, {3, 1, 2}, {1, 2, 3}, 1.5),
+    //     Professor("Prof7", {1, 3, 0}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1.5),
+    //     Professor("Prof8", {0, 1, 3}, {2, 3, 0}, {2, 3, 0}, {1, 2, 3}, 1),
+    //     Professor("Prof9", {1, 2, 3}, {1, 2, 3}, {3, 2, 0}, {3, 0, 1}, 1)};
+    vector<Professor> professors{
+        Professor("Prof1", {3, 1, 2}, {2, 0, 1}, {2, 3, 0}, {3, 1, 2}, 1.5),
+        Professor("Prof2", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 0.5),
+        Professor("Prof3", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
+        Professor("Prof4", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
+        Professor("Prof5", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1}, 0.5),
+        Professor("Prof6", {0, 1, 2}, {2, 3, 1}, {3, 1, 2}, {1, 2, 3}, 1.5),
+        Professor("Prof7", {1, 3, 0}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1.5),
+        Professor("Prof8", {0, 1, 3}, {2, 3, 0}, {2, 3, 0}, {1, 2, 3}, 1),
+        Professor("Prof9", {1, 2, 3}, {1, 2, 3}, {3, 2, 0}, {3, 0, 1}, 1)};
 
-    showProfessors(professors, sizeof(professors) / sizeof(professors[0]));
+    // showProfessors(professors, sizeof(professors) / sizeof(professors[0]));
+    showProfessors(professors);
     showCourses(Professor::UGCDCallCourse, Professor::UGELECTallCourse, Professor::HDCDCallCourse, Professor::HDELECTallCourse);
 
-    AlgorithmsSet::initiateAlgorithms(vector<Professor>(professors, professors + sizeof(professors) / sizeof(professors[0])),
-                                      vector<Course>(UGCDCcourses, UGCDCcourses + sizeof(UGCDCcourses) / sizeof(UGCDCcourses[0])),
-                                      vector<Course>(UGELECTcourses, UGELECTcourses + sizeof(UGELECTcourses) / sizeof(UGELECTcourses[0])),
-                                      vector<Course>(HDCDCcourses, HDCDCcourses + sizeof(HDCDCcourses) / sizeof(HDCDCcourses[0])),
-                                      vector<Course>(HDELECTcourses, HDELECTcourses + sizeof(HDELECTcourses) / sizeof(HDELECTcourses[0])));
+    // AlgorithmsSet::initiateAlgorithms(vector<Professor>(professors, professors + sizeof(professors) / sizeof(professors[0])),
+    //                                   vector<Course>(Professor::UGCDCallCourse, Professor::UGCDCallCourse + Course::totalUGCDCCourses),
+    //                                   vector<Course>(Professor::UGELECTallCourse, Professor::UGELECTallCourse + Course::totalUGElectCourses),
+    //                                   vector<Course>(Professor::HDCDCallCourse, Professor::HDCDCallCourse + Course::totalHDCDCCourses),
+    //                                   vector<Course>(Professor::HDELECTallCourse, Professor::HDELECTallCourse + Course::totalHDElectCourses));
+    AlgorithmsSet::initiateAlgorithms(vector<Professor>(professors),
+                                      vector<Course>(Professor::UGCDCallCourse, Professor::UGCDCallCourse + Course::totalUGCDCCourses),
+                                      vector<Course>(Professor::UGELECTallCourse, Professor::UGELECTallCourse + Course::totalUGElectCourses),
+                                      vector<Course>(Professor::HDCDCallCourse, Professor::HDCDCallCourse + Course::totalHDCDCCourses),
+                                      vector<Course>(Professor::HDELECTallCourse, Professor::HDELECTallCourse + Course::totalHDElectCourses));
     return 0;
 }
 
