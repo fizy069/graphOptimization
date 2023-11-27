@@ -15,7 +15,7 @@ public:
     static vector<Course> HDELECTorderedCourses;
     static vector<Course> OrderedCDCCourses;
     static vector<Course> OrderedElectCourses;
-    static int NoOfCoursesAssignedInAlgo1;
+
     static vector<Professor> assignedProfessorsWithCourses;
 
     static void initiateAlgorithms(vector<Professor> professors, vector<Course> UGCDCCourses, vector<Course> UGELECTCourses, vector<Course> HDCDCCourses, vector<Course> HDELECTCourses);

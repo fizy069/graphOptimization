@@ -1,20 +1,33 @@
 #include <iostream>
+#include <fstream>
+#include <string>
 #include <vector>
-#include <algorithm>
-using namespace std;
 
-void func(vector<int> &arr)
-{
-    arr.erase(arr.begin() + 2);
-    sort(arr.begin(), arr.end());
-    cout << arr[0] << arr[1] << arr[2] << endl;
-}
+using namespace std;
 
 int main()
 {
+    // Open the file
+    ifstream inputFile("test.txt");
 
-    vector<int> arr{5, 2, 3, 4};
-    func(arr);
-    cout << arr[0] << arr[1] << arr[2] << endl;
+    // Check if the file is open
+    if (!inputFile.is_open())
+    {
+        cerr << "Error opening file" << endl;
+        return 1;
+    }
+
+    // Read and print each line
+    string line;
+    string profname;
+    vector<int> ugcdc;
+    while (getline(inputFile, line))
+    {
+        profname = line;
+    }
+
+    // Close the file
+    inputFile.close();
+
     return 0;
 }
