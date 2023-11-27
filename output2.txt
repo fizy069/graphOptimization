@@ -1,0 +1,2239 @@
+Prof1
+	First Degree CDC's
+	1. UGCDC4
+	2. UGCDC2
+	3. UGCDC3
+	First Degree Electives's
+	1. UGELECT3
+	2. UGELECT1
+	3. UGELECT2
+	Higher Degree CDC's
+	1. HDCDC3
+	2. HDCDC4
+	3. HDCDC1
+	Higher Degree Electives's
+	1. HDELECT4
+	2. HDELECT2
+	3. HDELECT3
+Prof2
+	First Degree CDC's
+	1. UGCDC1
+	2. UGCDC2
+	3. UGCDC3
+	First Degree Electives's
+	1. UGELECT3
+	2. UGELECT4
+	3. UGELECT1
+	Higher Degree CDC's
+	1. HDCDC4
+	2. HDCDC2
+	3. HDCDC3
+	Higher Degree Electives's
+	1. HDELECT2
+	2. HDELECT3
+	3. HDELECT4
+Prof3
+	First Degree CDC's
+	1. UGCDC3
+	2. UGCDC4
+	3. UGCDC2
+	First Degree Electives's
+	1. UGELECT4
+	2. UGELECT2
+	3. UGELECT3
+	Higher Degree CDC's
+	1. HDCDC4
+	2. HDCDC3
+	3. HDCDC2
+	Higher Degree Electives's
+	1. HDELECT3
+	2. HDELECT1
+	3. HDELECT2
+Prof4
+	First Degree CDC's
+	1. UGCDC2
+	2. UGCDC4
+	3. UGCDC3
+	First Degree Electives's
+	1. UGELECT2
+	2. UGELECT4
+	3. UGELECT1
+	Higher Degree CDC's
+	1. HDCDC4
+	2. HDCDC2
+	3. HDCDC3
+	Higher Degree Electives's
+	1. HDELECT2
+	2. HDELECT3
+	3. HDELECT4
+Prof5
+	First Degree CDC's
+	1. UGCDC3
+	2. UGCDC4
+	3. UGCDC1
+	First Degree Electives's
+	1. UGELECT4
+	2. UGELECT2
+	3. UGELECT3
+	Higher Degree CDC's
+	1. HDCDC3
+	2. HDCDC4
+	3. HDCDC1
+	Higher Degree Electives's
+	1. HDELECT3
+	2. HDELECT1
+	3. HDELECT2
+Prof6
+	First Degree CDC's
+	1. UGCDC1
+	2. UGCDC2
+	3. UGCDC3
+	First Degree Electives's
+	1. UGELECT3
+	2. UGELECT4
+	3. UGELECT2
+	Higher Degree CDC's
+	1. HDCDC4
+	2. HDCDC2
+	3. HDCDC3
+	Higher Degree Electives's
+	1. HDELECT2
+	2. HDELECT3
+	3. HDELECT4
+Prof7
+	First Degree CDC's
+	1. UGCDC2
+	2. UGCDC4
+	3. UGCDC1
+	First Degree Electives's
+	1. UGELECT4
+	2. UGELECT2
+	3. UGELECT3
+	Higher Degree CDC's
+	1. HDCDC4
+	2. HDCDC3
+	3. HDCDC2
+	Higher Degree Electives's
+	1. HDELECT3
+	2. HDELECT1
+	3. HDELECT2
+Prof8
+	First Degree CDC's
+	1. UGCDC1
+	2. UGCDC2
+	3. UGCDC4
+	First Degree Electives's
+	1. UGELECT3
+	2. UGELECT4
+	3. UGELECT1
+	Higher Degree CDC's
+	1. HDCDC3
+	2. HDCDC4
+	3. HDCDC1
+	Higher Degree Electives's
+	1. HDELECT2
+	2. HDELECT3
+	3. HDELECT4
+Prof9
+	First Degree CDC's
+	1. UGCDC2
+	2. UGCDC3
+	3. UGCDC4
+	First Degree Electives's
+	1. UGELECT2
+	2. UGELECT3
+	3. UGELECT4
+	Higher Degree CDC's
+	1. HDCDC4
+	2. HDCDC3
+	3. HDCDC1
+	Higher Degree Electives's
+	1. HDELECT4
+	2. HDELECT1
+	3. HDELECT2
+First Degree CDC's:
+Name: UGCDC1, Course Type: 1,Popularity: 16
+Name: UGCDC2, Course Type: 1,Popularity: 26
+Name: UGCDC3, Course Type: 1,Popularity: 19
+Name: UGCDC4, Course Type: 1,Popularity: 20
+First Degree Electives:
+Name: UGELECT1, Course Type: 2,Popularity: 9
+Name: UGELECT2, Course Type: 2,Popularity: 21
+Name: UGELECT3, Course Type: 2,Popularity: 25
+Name: UGELECT4, Course Type: 2,Popularity: 26
+Higher Degree CDC's:
+Name: HDCDC1, Course Type: 3,Popularity: 8
+Name: HDCDC2, Course Type: 3,Popularity: 13
+Name: HDCDC3, Course Type: 3,Popularity: 27
+Name: HDCDC4, Course Type: 3,Popularity: 33
+Higher Degree Electives:
+Name: HDELECT1, Course Type: 4,Popularity: 12
+Name: HDELECT2, Course Type: 4,Popularity: 27
+Name: HDELECT3, Course Type: 4,Popularity: 26
+Name: HDELECT4, Course Type: 4,Popularity: 16
+1. Prof5	123
+2. Prof8	130
+3. Prof1	133
+4. Prof9	133
+5. Prof2	134
+6. Prof6	134
+7. Prof7	135
+8. Prof3	138
+9. Prof4	138
+
+
+Ordered CDC Courses:
+Name: HDCDC1, Course Type: 3,Popularity: 8
+Name: HDCDC2, Course Type: 3,Popularity: 13
+Name: UGCDC1, Course Type: 1,Popularity: 16
+Name: UGCDC3, Course Type: 1,Popularity: 19
+Name: UGCDC4, Course Type: 1,Popularity: 20
+Name: UGCDC2, Course Type: 1,Popularity: 26
+Name: HDCDC3, Course Type: 3,Popularity: 27
+Name: HDCDC4, Course Type: 3,Popularity: 33
+
+
+Ordered Elective Courses:
+Name: UGELECT1, Course Type: 2,Popularity: 9
+Name: HDELECT1, Course Type: 4,Popularity: 12
+Name: HDELECT4, Course Type: 4,Popularity: 16
+Name: UGELECT2, Course Type: 2,Popularity: 21
+Name: UGELECT3, Course Type: 2,Popularity: 25
+Name: UGELECT4, Course Type: 2,Popularity: 26
+Name: HDELECT3, Course Type: 4,Popularity: 26
+Name: HDELECT2, Course Type: 4,Popularity: 27
+
+
+
+
+
+Output: 1
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 2
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 3
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 4
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 5
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 6
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 7
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 8
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 9
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 10
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 11
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 12
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 13
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 14
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 15
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 16
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 17
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 18
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 19
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 20
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 21
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 22
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 23
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 24
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 25
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 26
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 27
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 28
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 29
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 30
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 31
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 32
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 33
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 34
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 35
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 36
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 37
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 38
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 39
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 40
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 41
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 42
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 43
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 44
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 45
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 46
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 47
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 48
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 49
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 50
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 51
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 52
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 53
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 54
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 55
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 56
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 57
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 58
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 59
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 60
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. UGELECT1
+	3. HDELECT4
+
+
+
+Output: 61
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 62
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof2, Credits Available: 0
+	1. HDCDC2
+3. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+	3. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 63
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+	2. UGCDC3
+5. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. UGCDC4
+	3. HDCDC3
+6. Prof9, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. UGCDC2
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+
+
+
+Output: 64
+
+1. Prof5, Credits Available: 0
+	1. HDCDC1
+2. Prof8, Credits Available: 0
+	1. HDCDC1
+	2. UGCDC1
+3. Prof6, Credits Available: 0
+	1. HDCDC2
+	2. UGCDC1
+4. Prof3, Credits Available: 0
+	1. UGCDC3
+5. Prof9, Credits Available: 0
+	1. UGCDC2
+6. Prof1, Credits Available: 0
+	1. UGCDC4
+	2. HDCDC3
+7. Prof2, Credits Available: 0
+	1. HDCDC4
+8. Prof7, Credits Available: 0
+	1. HDCDC3
+	2. HDCDC4
+	3. HDELECT1
+9. Prof4, Credits Available: 0
+	1. UGELECT1
+	2. HDELECT4
+Time taken by function: 21252 microseconds
