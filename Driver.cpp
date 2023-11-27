@@ -3,6 +3,7 @@
 #include "professor.h"
 #include "algorithmsSet.h"
 #include <vector>
+
 using namespace std;
 
 void showCourses(Course UGCDCcourses[], Course UGELECTcourses[], Course HDCDCcourses[], Course HDELECTcourses[])
@@ -81,7 +82,7 @@ void assigningHDELECTcourses(Course courses[], int n)
 int main()
 {
 
-      Course UGCDCcourses[] = {Course("UGCDC1", 1), Course("UGCDC2", 1), Course("UGCDC3", 1), Course("UGCDC4", 1)};
+    Course UGCDCcourses[] = {Course("UGCDC1", 1), Course("UGCDC2", 1), Course("UGCDC3", 1), Course("UGCDC4", 1)};
     Course UGELECTcourses[] = {Course("UGELECT1", 2), Course("UGELECT2", 2), Course("UGELECT3", 2), Course("UGELECT4", 2)};
     Course HDCDCcourses[] = {Course("HDCDC1", 3), Course("HDCDC2", 3), Course("HDCDC3", 3), Course("HDCDC4", 3)};
     Course HDELECTcourses[] = {Course("HDELECT1", 4), Course("HDELECT2", 4), Course("HDELECT3", 4), Course("HDELECT4", 4)};
