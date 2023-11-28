@@ -10,8 +10,6 @@ vector<Course> AlgorithmsSet::OrderedCDCCourses;
 vector<Course> AlgorithmsSet::OrderedElectCourses;
 vector<Professor> AlgorithmsSet::assignedProfessorsWithCourses;
 
-int AlgorithmsSet::NoOfCoursesAssignedInAlgo1;
-
 void AlgorithmsSet::printProfessors(vector<Professor> professors)
 {
     for (int i = 0; i < professors.size(); i++)
@@ -49,7 +47,7 @@ void AlgorithmsSet::calcPopularityOfProfOnCDCs(vector<Professor> &professors)
 
         for (int j = 0; j < professors[i].HDCDC.size(); j++)
         {
-            professors[i].popular += professors[i].HDCDCallCourse[professors[i].HDCDC[j]].popular; // Professor:: can be used
+            professors[i].popular += professors[i].HDCDCallCourse[professors[i].HDCDC[j]].popular;
         }
     }
 }
@@ -58,15 +56,15 @@ void AlgorithmsSet::calcPopularityOfProfOnElectives(vector<Professor> &professor
 {
     for (int i = 0; i < professors.size(); i++)
     {
-        professors[i].popular = 0; // Setting Popularity of Prof to 0 coz CDCS popularity was there
+        professors[i].popular = 0;
         for (int j = 0; j < professors[i].UGELECT.size(); j++)
         {
-            professors[i].popular += professors[i].UGELECTallCourse[professors[i].UGELECT[j]].popular; // Professor:: can be used
+            professors[i].popular += professors[i].UGELECTallCourse[professors[i].UGELECT[j]].popular;
         }
 
         for (int j = 0; j < professors[i].HDELECT.size(); j++)
         {
-            professors[i].popular += professors[i].HDELECTallCourse[professors[i].HDELECT[j]].popular; // Professor:: can be used
+            professors[i].popular += professors[i].HDELECTallCourse[professors[i].HDELECT[j]].popular;
         }
     }
 }
@@ -436,6 +434,21 @@ void AlgorithmsSet::algorithm1(vector<Professor> OrderedProfessors, vector<Cours
                 {
                     assignedProfessorsWithCourses.erase(assignedProfessorsWithCourses.begin() + j);
                     i--;
+                }
+            }
+        }
+
+        for (int i = 0; i < assignedProfessorsWithCourses.size(); i++)
+        {
+            for (int j = 0; j < assignedProfessorsWithCourses[i].assignedCourses.size() - 1; j++)
+            {
+                for (int k = j + 1; k < assignedProfessorsWithCourses[i].assignedCourses.size(); k++)
+                {
+                    if (assignedProfessorsWithCourses[i].assignedCourses[j].name == assignedProfessorsWithCourses[i].assignedCourses[k].name)
+                    {
+                        assignedProfessorsWithCourses[i].assignedCourses.erase(assignedProfessorsWithCourses[i].assignedCourses.begin() + k);
+                        k--;
+                    }
                 }
             }
         }
