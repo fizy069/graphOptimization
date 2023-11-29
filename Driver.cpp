@@ -101,96 +101,6 @@ void assigningHDELECTcourses(Course courses[], int n)
 
 int main()
 {
-    auto start = std::chrono::high_resolution_clock::now();
-    // string name = "";
-    // vector<int> UGCDC = {}, UGELEC = {}, HDCDC = {}, HDELEC = {};
-    // double creds = 0;
-    // int ctr = 0;
-    vector<Professor> professors;
-    freopen("output2.txt", "w", stdout);
-
-    std::ifstream file("prof_input.csv");
-
-    if (!file.is_open())
-    {
-        std::cerr << "Error opening the file." << std::endl;
-        return 1;
-    }
-    std::string line;
-    while (std::getline(file, line))
-    {
-        string name = "";
-        vector<int> UGCDC = {}, UGELEC = {}, HDCDC = {}, HDELEC = {};
-        double creds = 0;
-        int ctr = 0;
-        Professor p(name, UGCDC, UGELEC, HDCDC, HDELEC, creds);
-
-        std::stringstream ss(line);
-
-        std::getline(ss, p.name, ',');
-
-        std::string subjectToken;
-        int subjectIndex = 0;
-        while (std::getline(ss, subjectToken, ','))
-        {
-
-            if (subjectToken.empty())
-                break;
-            std::stringstream subjectStream(subjectToken);
-
-            std::string grade;
-            while (std::getline(subjectStream, grade, ' '))
-            {
-                if (isInteger(grade) || (grade == "x1" || grade == "x2" || grade == "x3"))
-                {
-
-                    if (grade == "x1")
-                    {
-                        p.creditsAvailable = 0.5;
-                    }
-                    else if (grade == "x2")
-                    {
-                        p.creditsAvailable = 1;
-                    }
-                    else if (grade == "x3")
-                    {
-                        p.creditsAvailable = 1.5;
-                    }
-                    else
-                    {
-                        int gradeValue = convertToInteger(grade);
-
-                        switch (subjectIndex)
-                        {
-                        case 0:
-                            p.UGCDC.push_back(gradeValue);
-                            break;
-                        case 1:
-                            p.UGELECT.push_back(gradeValue);
-                            break;
-                        case 2:
-                            p.HDCDC.push_back(gradeValue);
-                            break;
-                        case 3:
-                            p.HDELECT.push_back(gradeValue);
-                            break;
-                        default:
-                            break;
-                        }
-                    }
-                }
-                else
-                {
-                    std::cerr << "error - " << grade << std::endl;
-                }
-            }
-            subjectIndex++;
-        }
-        professors.emplace_back(p);
-
-    }
-    file.close();
-
     Course UGCDCcourses[] = {
         Course("CS F11 CP1", 1),
         Course("CS F12 CP2", 1),
@@ -238,7 +148,96 @@ int main()
     assigningHDCDCcourses(HDCDCcourses, sizeof(HDCDCcourses) / sizeof(HDCDCcourses[0]));
     assigningHDELECTcourses(HDELECTcourses, sizeof(HDELECTcourses) / sizeof(HDELECTcourses[0]));
 
-    // vector<Professor> professors{
+    auto start = std::chrono::high_resolution_clock::now();
+    // string name = "";
+    // vector<int> UGCDC = {}, UGELEC = {}, HDCDC = {}, HDELEC = {};
+    // double creds = 0;
+    // int ctr = 0;
+    vector<Professor> professors;
+    freopen("output.txt", "w", stdout);
+
+    std::ifstream file("prof_input.csv");
+
+    if (!file.is_open())
+    {
+        std::cerr << "Error opening the file." << std::endl;
+        return 1;
+    }
+    std::string line;
+    while (std::getline(file, line))
+    {
+        string name = "";
+        vector<int> UGCDC = {}, UGELECT = {}, HDCDC = {}, HDELECT = {};
+        double creds = 0;
+        int ctr = 0;
+
+        stringstream ss(line);
+
+        getline(ss, name, ',');
+
+        string subjectToken;
+        int subjectIndex = 0;
+        while (getline(ss, subjectToken, ','))
+        {
+
+            if (subjectToken.empty())
+                break;
+            stringstream subjectStream(subjectToken);
+
+            string grade;
+            while (getline(subjectStream, grade, ' '))
+            {
+                if (isInteger(grade) || (grade == "x1" || grade == "x2" || grade == "x3"))
+                {
+
+                    if (grade == "x1")
+                    {
+                        creds = 0.5;
+                    }
+                    else if (grade == "x2")
+                    {
+                        creds = 1;
+                    }
+                    else if (grade == "x3")
+                    {
+                        creds = 1.5;
+                    }
+                    else
+                    {
+                        int gradeValue = convertToInteger(grade);
+
+                        switch (subjectIndex)
+                        {
+                        case 0:
+                            UGCDC.push_back(gradeValue);
+                            break;
+                        case 1:
+                            UGELECT.push_back(gradeValue);
+                            break;
+                        case 2:
+                            HDCDC.push_back(gradeValue);
+                            break;
+                        case 3:
+                            HDELECT.push_back(gradeValue);
+                            break;
+                        default:
+                            break;
+                        }
+                    }
+                }
+                else
+                {
+                    std::cerr << "error - " << grade << std::endl;
+                }
+            }
+            subjectIndex++;
+        }
+        Professor p(name, UGCDC, UGELECT, HDCDC, HDELECT, creds);
+        professors.emplace_back(p);
+    }
+    file.close();
+
+        // vector<Professor> professors{
     // Professor("Snehanshu Saha", {4, 5, 3}, {2, 0, 1, 6}, {2, 3, 0}, {3, 1, 2, 4}, 1.5),
     // Professor("Ramprasad S. Joshi", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 0.5),
     // Professor("Harikrishnan N. B.", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
