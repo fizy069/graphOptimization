@@ -6,12 +6,28 @@
 #include <fstream>
 #include <sstream>
 #include <chrono>
+#include <algorithm>
 
 using namespace std;
 
+bool isInteger(const std::string &s)
+{
+    return !s.empty() && all_of(s.begin(), s.end(), ::isdigit);
+}
+
+int convertToInteger(const std::string &s)
+{
+    if (s == "x1")
+        return 0.5;
+    if (s == "x2")
+        return 1;
+    if (s == "x3")
+        return 1.5;
+    return std::stoi(s);
+}
+
 void showCourses(Course UGCDCcourses[], Course UGELECTcourses[], Course HDCDCcourses[], Course HDELECTcourses[])
 {
-    // cout << 1;
     cout << "First Degree CDC's:" << endl;
     for (int i = 0; i < Course::totalUGCDCCourses; i++)
     {
@@ -32,6 +48,14 @@ void showCourses(Course UGCDCcourses[], Course UGELECTcourses[], Course HDCDCcou
     {
         HDELECTcourses[i].showCourse();
     }
+}
+void printVector(const vector<int> vec)
+{
+    for (const auto &element : vec)
+    {
+        std::cout << element << " ";
+    }
+    std::cout << std::endl;
 }
 
 void showProfessors(vector<Professor> professors)
@@ -78,171 +102,94 @@ void assigningHDELECTcourses(Course courses[], int n)
 int main()
 {
     auto start = std::chrono::high_resolution_clock::now();
-    freopen("output2.txt", "w", stdout);
-    ifstream inputFile("prof_input.txt");
-    char c;
-    string name = "";
-    vector<int> UGCDC, UGELEC, HDCDC, HDELEC;
-    bool prof = false;
-    // double cred;
-    int curlyout = 0;
+    // string name = "";
+    // vector<int> UGCDC = {}, UGELEC = {}, HDCDC = {}, HDELEC = {};
+    // double creds = 0;
+    // int ctr = 0;
     vector<Professor> professors;
+    freopen("output2.txt", "w", stdout);
 
-    while (inputFile.get(c))
+    std::ifstream file("prof_input.csv");
+
+    if (!file.is_open())
     {
-        if (c == ' ')
-        {
-            continue;
-        }
-        if (c == '"')
-        {
-            while (inputFile.get(c) && c != '"')
-            {
-                name += c;
-            }
-            if (c == '"')
+        std::cerr << "Error opening the file." << std::endl;
+        return 1;
+    }
+    std::string line;
+    while (std::getline(file, line))
+    {
+        string name = "";
+        vector<int> UGCDC = {}, UGELEC = {}, HDCDC = {}, HDELEC = {};
+        double creds = 0;
+        int ctr = 0;
+        Professor p(name, UGCDC, UGELEC, HDCDC, HDELEC, creds);
 
-                // cout<<name<<endl;
-                continue;
-        }
-        if (c == '{' && curlyout == 0)
-        {
-            while (inputFile.get(c) && c != '}')
-            {
-                if (c == ' ')
-                    continue;
-                // cout<<c<<endl;
-                int d = c - '0';
-                // int d;
-                // cout<<d<<endl;
-                UGCDC.push_back(d);
-                // return 0;
-            }
+        std::stringstream ss(line);
 
-            if (c == '}')
-            {
-                curlyout++;
-                continue;
-            }
-        }
-        if (c == '{' && curlyout == 1)
-        {
-            while (inputFile.get(c) && c != '}')
-            {
-                if (c == ' ')
-                    continue;
+        std::getline(ss, p.name, ',');
 
-                int d = c - '0';
-                // int d;
-                UGELEC.push_back(d);
-                // cout<<d<<endl;
-            }
-            if (c == '}')
-            {
-                curlyout++;
-                continue;
-            }
-        }
-        if (c == '{' && curlyout == 2)
+        std::string subjectToken;
+        int subjectIndex = 0;
+        while (std::getline(ss, subjectToken, ','))
         {
 
-            while (inputFile.get(c) && c != '}')
-            {
-                if (c == ' ')
-                    continue;
-                int d = c - '0';
-                // int d;
-                HDCDC.push_back(d);
-                // cout<<d<<endl;
-            }
-            if (c == '}')
-            {
-                curlyout++;
-                continue;
-            }
-        }
-        if (c == '{' && curlyout == 3)
-        {
-            while (inputFile.get(c) && c != '}')
-            {
-                if (c == ' ')
-                    continue;
+            if (subjectToken.empty())
+                break;
+            std::stringstream subjectStream(subjectToken);
 
-                int d = c - '0';
-                // int d;
-                HDELEC.push_back(d);
-                // cout<<d<<endl;
-            }
-            if (c == '}')
+            std::string grade;
+            while (std::getline(subjectStream, grade, ' '))
             {
-                curlyout++;
-                continue;
-            }
-        }
-        if (curlyout == 4)
-        {
-            // cout<<"entering c = 4\n";
-            // inputFile.get(c);
-            if (c == ' ')
-                continue;
-            else if (c == 'x')
-            {
-                inputFile.get(c);
-                if (c == '1')
+                if (isInteger(grade) || (grade == "x1" || grade == "x2" || grade == "x3"))
                 {
-                    Professor p(name, UGCDC, UGELEC, HDCDC, HDELEC, 0.5);
-                    professors.push_back(p);
 
-                    prof = true;
+                    if (grade == "x1")
+                    {
+                        p.creditsAvailable = 0.5;
+                    }
+                    else if (grade == "x2")
+                    {
+                        p.creditsAvailable = 1;
+                    }
+                    else if (grade == "x3")
+                    {
+                        p.creditsAvailable = 1.5;
+                    }
+                    else
+                    {
+                        int gradeValue = convertToInteger(grade);
 
-                    UGCDC.clear();
-                    UGELEC.clear();
-                    HDCDC.clear();
-                    HDELEC.clear();
-                    name = "";
-                    curlyout = 0;
-
-                    // inputFile.get(c);
-                }
-                else if (c == '2')
-                {
-                    Professor p(name, UGCDC, UGELEC, HDCDC, HDELEC, 1);
-                    professors.push_back(p);
-                    prof = true;
-
-                    UGCDC.clear();
-                    UGELEC.clear();
-                    HDCDC.clear();
-                    HDELEC.clear();
-                    name = "";
-                    curlyout = 0;
-
-                    // cout << "x2" << endl;
-                    // inputFile.get(c);
+                        switch (subjectIndex)
+                        {
+                        case 0:
+                            p.UGCDC.push_back(gradeValue);
+                            break;
+                        case 1:
+                            p.UGELECT.push_back(gradeValue);
+                            break;
+                        case 2:
+                            p.HDCDC.push_back(gradeValue);
+                            break;
+                        case 3:
+                            p.HDELECT.push_back(gradeValue);
+                            break;
+                        default:
+                            break;
+                        }
+                    }
                 }
                 else
                 {
-                    Professor p(name, UGCDC, UGELEC, HDCDC, HDELEC, 1.5);
-                    professors.push_back(p);
-                    prof = true;
-
-                    // cout << "x3" << endl;
-
-                    UGCDC.clear();
-                    UGELEC.clear();
-                    HDCDC.clear();
-                    HDELEC.clear();
-                    name = "";
-                    curlyout = 0;
-
-                    // inputFile.get(c);
+                    std::cerr << "error - " << grade << std::endl;
                 }
             }
+            subjectIndex++;
         }
-    }
+        professors.emplace_back(p);
 
-    inputFile.close();
-   
+    }
+    file.close();
 
     Course UGCDCcourses[] = {
         Course("CS F11 CP1", 1),
@@ -292,17 +239,6 @@ int main()
     assigningHDELECTcourses(HDELECTcourses, sizeof(HDELECTcourses) / sizeof(HDELECTcourses[0]));
 
     // vector<Professor> professors{
-    //     Professor("Prof1", {3, 1, 2}, {2, 0, 1}, {2, 3, 0}, {3, 1, 2}, 1.5),
-    //     Professor("Prof2", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 0.5),
-    //     Professor("Prof3", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
-    //     Professor("Prof4", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-    //     Professor("Prof5", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1}, 0.5),
-    //     Professor("Prof6", {0, 1, 2}, {2, 3, 1}, {3, 1, 2}, {1, 2, 3}, 1.5),
-    //     Professor("Prof7", {1, 3, 0}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1.5),
-    //     Professor("Prof8", {0, 1, 3}, {2, 3, 0}, {2, 3, 0}, {1, 2, 3}, 1),
-    //     Professor("Prof9", {1, 2, 3}, {1, 2, 3}, {3, 2, 0}, {3, 0, 1}, 1)};
-    
-    // vector<Professor> professors{
     // Professor("Snehanshu Saha", {4, 5, 3}, {2, 0, 1, 6}, {2, 3, 0}, {3, 1, 2, 4}, 1.5),
     // Professor("Ramprasad S. Joshi", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 0.5),
     // Professor("Harikrishnan N. B.", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
@@ -327,8 +263,8 @@ int main()
     // Professor("Swaroop Joshi", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1, 4}, 0.5),
     // Professor("Swati Agarwal", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
     // Professor("Tanmay Tulsidas Verlekar", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
-    // // Professor("A. Baskar", {1, 3, 2, 4}, {1, 3, 0, 5}, {3, 1, 2}, {1, 2, 3, 4}, 1.5)
     // };
+    // cout<<"SHOWING PROF\n";
     showProfessors(professors);
     showCourses(Professor::UGCDCallCourse, Professor::UGELECTallCourse, Professor::HDCDCallCourse, Professor::HDELECTallCourse);
 
