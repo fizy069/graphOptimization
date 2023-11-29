@@ -415,17 +415,6 @@ void AlgorithmsSet::algorithm1(vector<Professor> OrderedProfessors, vector<Cours
             }
         }
 
-        // for (int i = 0; i < assignedProfessorsWithCourses.size(); i++) // Checks of all Courses assigned r 0 credits
-        // {
-        //     for (int j = 0; j < assignedProfessorsWithCourses[i].assignedCourses.size(); j++)
-        //     {
-        //         if (assignedProfessorsWithCourses[i].assignedCourses[j].creditsAvailableInCourse != 0)
-        //         {
-        //             assignedProfessorsWithCourses.erase(assignedProfessorsWithCourses.begin() + i);
-        //         }
-        //     }
-        // }
-
         for (int i = assignedProfessorsWithCourses.size() - 1; i > 0; i--) // Removes duplicates and keeps the latest values
         {
             for (int j = i - 1; j >= 0; j--)
@@ -452,6 +441,19 @@ void AlgorithmsSet::algorithm1(vector<Professor> OrderedProfessors, vector<Cours
                 }
             }
         }
+
+        // for (int i = 0; i < assignedProfessorsWithCourses.size(); i++)
+        // {
+        //     for (int j = 0; j < assignedProfessorsWithCourses[i].assignedCourses.size(); j++)
+        //     {
+
+        //         if (assignedProfessorsWithCourses[i].assignedCourses[j].popular != 0)
+        //         {
+        //             assignedProfessorsWithCourses[i].assignedCourses.erase(assignedProfessorsWithCourses[i].assignedCourses.begin() + j);
+        //             j--;
+        //         }
+        //     }
+        // }
 
         cout << "\n\n\nOutput: " << 16 * noOfOutputs + combination + 1 << "\n\n";
         for (int i = 0; i < assignedProfessorsWithCourses.size(); i++) // Prints the assigned profs with Courses
