@@ -185,25 +185,19 @@ void readFile(vector<Professor> &professors)
 
 int main()
 {
+    auto start = std::chrono::high_resolution_clock::now();
     Course UGCDCcourses[] = {
-        Course("CS F11 CP1", 1),                    // index 0
-        Course("CS F12 CP2", 1),                    // index 1
-        Course("CS F13 CP3", 1),                    // index 2
-        Course("CS F214 LCS", 1),                   // index 3
-        Course("CS F222 DisCo", 1),                 // index 4
-        Course("CS F213 OOP", 1),                   // index 5
-        Course("CS F215 DD", 1),                    // index 6
-        Course("CS F211 DSA", 1),                   // index 7
-        Course("CS F241 MUP", 1),                   // index 8
-        Course("CS F212 DBMS", 1),                  // index 9
-        Course("CS F301 PoPL", 1),                  // index 10
-        Course("CS F342 CompArch", 1),              // index 11
-        Course("CS F351 ToC", 1),                   // index 12
-        Course("CS F372 OS", 1),                    // index 13
-        Course("CS F303 COMP NETWORKS", 1),         // index 14
-        Course("CS F363 COMPILER CONSTRUCTION", 1), // index 15
-        Course("CS F364 DAA", 1)};                  // index 16
-
+        Course("CS F11 CP1", 1),       // index 0
+        Course("CS F12 CP2", 1),       // index 1
+        Course("CS F13 CP3", 1),       // index 2
+        Course("CS F214 LCS", 1),      // index 3
+        Course("CS F222 DisCo", 1),    // index 4
+        Course("CS F213 OOP", 1),      // index 5
+        Course("CS F215 DD", 1),       // index 6
+        Course("CS F301 PoPL", 1),     // index 7
+        Course("CS F342 CompArch", 1), // index 8
+        Course("CS F351 ToC", 1),      // index 9
+    };
     Course UGELECTcourses[] = {
         Course("BITS F311 Image Processing", 2),         // index 0
         Course("BITS F312 NEURAL NET & FUZZY LOGIC", 2), // index 1
@@ -212,7 +206,7 @@ int main()
         Course("BITS F386 QUANTUM INFO & COMPUTING", 2), // index 4
         Course("BITS F452 BLOCKCHAIN TECHNOLOGY", 2),    // index 5
         Course("BITS F463 CRYPTOGRAPHY", 2),             // index 6
-        Course("BITS F464 MACHINE LEARNING", 2)};        // index 7
+    };
 
     Course HDCDCcourses[] = {
         Course("CS G513 Network Security", 3),                   // index 0
@@ -237,33 +231,45 @@ int main()
 
     vector<Professor> professors;
     readFile(professors);
-    freopen("output.txt", "w", stdout);
+    FILE *fp = freopen("info.txt", "w", stdout);
+    for (int i = 0; i < Course::totalUGCDCCourses; i++)
+    {
+        if (Professor::UGCDCallCourse[i].popular == 0)
+        {
+            cout << "\n(Terminating Program)\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::UGCDCallCourse[i].name << endl;
+            return -1;
+        }
+    }
+    for (int i = 0; i < Course::totalHDCDCCourses; i++)
+    {
+        if (Professor::HDCDCallCourse[i].popular == 0)
+        {
+            cout << "\n(Terminating Program)\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::HDCDCallCourse[i].name << endl;
+            return -1;
+        }
+    }
 
-    // for (int i = 0; i < Course::totalUGCDCCourses; i++)
-    // {
-    //     if (Professor::UGCDCallCourse[i].popular == 0)
-    //     {
-    //         cout << "\n\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::UGCDCallCourse[i].name << endl;
-    //         return -1;
-    //     }
-    // }
-    // for (int i = 0; i < Course::totalHDCDCCourses; i++)
-    // {
-    //     if (Professor::HDCDCallCourse[i].popular == 0)
-    //     {
-    //         cout << "\n\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::HDCDCallCourse[i].name << endl;
-    //         return -1;
-    //     }
-    // }
-
+    
+    cout << "Professor preferences : \n";
     showProfessors(professors);
     showCourses(Professor::UGCDCallCourse, Professor::UGELECTallCourse, Professor::HDCDCallCourse, Professor::HDELECTallCourse);
+    fclose(fp);
 
+    FILE *fp2 = freopen("assignments.txt", "w", stdout);
     AlgorithmsSet::initiateAlgorithms(vector<Professor>(professors),
                                       vector<Course>(Professor::UGCDCallCourse, Professor::UGCDCallCourse + Course::totalUGCDCCourses),
                                       vector<Course>(Professor::UGELECTallCourse, Professor::UGELECTallCourse + Course::totalUGElectCourses),
                                       vector<Course>(Professor::HDCDCallCourse, Professor::HDCDCallCourse + Course::totalHDCDCCourses),
                                       vector<Course>(Professor::HDELECTallCourse, Professor::HDELECTallCourse + Course::totalHDElectCourses));
+
+    auto stop = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+
+    string s = "Time effiency: " + to_string(duration.count() / 1000.0) + " milliseconds\n";
+    cout<<s<<endl;
+    fclose(fp2);
+
+    
 
     return 0;
 }
