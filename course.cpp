@@ -3,7 +3,7 @@
 Course::Course()
 {
 }
-int Course::totalCourses = 0;
+
 int Course::totalUGCDCCourses = 0;
 int Course::totalUGElectCourses = 0;
 int Course::totalHDCDCCourses = 0;
@@ -14,11 +14,10 @@ Course::Course(string courseName, int coursetype)
     courseType = coursetype;
     creditsAvailableInCourse = 1;
     popular = 0;
-    totalCourses++;
 }
 
 void Course::showCourse()
 {
-    // cout << "Name: " << name << ", Popularity: " << popular << endl;
-    cout << "Name: " << name << ", Course Type: " << courseType << ",Popularity: " << popular << endl;
+    cout << "Name: " << name << ", Popularity: " << popular << endl;
+    // cout << "Name: " << name << ", Course Type: " << courseType << ",Popularity: " << popular << endl;
 }

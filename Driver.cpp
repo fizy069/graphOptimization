@@ -99,62 +99,53 @@ void assigningHDELECTcourses(Course courses[], int n)
     }
 }
 
-int main()
+void readFile(vector<Professor> &professors)
 {
-    auto start = std::chrono::high_resolution_clock::now();
-    // string name = "";
-    // vector<int> UGCDC = {}, UGELEC = {}, HDCDC = {}, HDELEC = {};
-    // double creds = 0;
-    // int ctr = 0;
-    vector<Professor> professors;
-    freopen("output2.txt", "w", stdout);
-
     std::ifstream file("prof_input.csv");
 
     if (!file.is_open())
     {
         std::cerr << "Error opening the file." << std::endl;
-        return 1;
+        return;
     }
     std::string line;
     while (std::getline(file, line))
     {
         string name = "";
-        vector<int> UGCDC = {}, UGELEC = {}, HDCDC = {}, HDELEC = {};
+        vector<int> UGCDC = {}, UGELECT = {}, HDCDC = {}, HDELECT = {};
         double creds = 0;
         int ctr = 0;
-        Professor p(name, UGCDC, UGELEC, HDCDC, HDELEC, creds);
 
-        std::stringstream ss(line);
+        stringstream ss(line);
 
-        std::getline(ss, p.name, ',');
+        getline(ss, name, ',');
 
-        std::string subjectToken;
+        string subjectToken;
         int subjectIndex = 0;
-        while (std::getline(ss, subjectToken, ','))
+        while (getline(ss, subjectToken, ','))
         {
 
             if (subjectToken.empty())
                 break;
-            std::stringstream subjectStream(subjectToken);
+            stringstream subjectStream(subjectToken);
 
-            std::string grade;
-            while (std::getline(subjectStream, grade, ' '))
+            string grade;
+            while (getline(subjectStream, grade, ' '))
             {
                 if (isInteger(grade) || (grade == "x1" || grade == "x2" || grade == "x3"))
                 {
 
                     if (grade == "x1")
                     {
-                        p.creditsAvailable = 0.5;
+                        creds = 0.5;
                     }
                     else if (grade == "x2")
                     {
-                        p.creditsAvailable = 1;
+                        creds = 1;
                     }
                     else if (grade == "x3")
                     {
-                        p.creditsAvailable = 1.5;
+                        creds = 1.5;
                     }
                     else
                     {
@@ -163,16 +154,16 @@ int main()
                         switch (subjectIndex)
                         {
                         case 0:
-                            p.UGCDC.push_back(gradeValue);
+                            UGCDC.push_back(gradeValue);
                             break;
                         case 1:
-                            p.UGELECT.push_back(gradeValue);
+                            UGELECT.push_back(gradeValue);
                             break;
                         case 2:
-                            p.HDCDC.push_back(gradeValue);
+                            HDCDC.push_back(gradeValue);
                             break;
                         case 3:
-                            p.HDELECT.push_back(gradeValue);
+                            HDELECT.push_back(gradeValue);
                             break;
                         default:
                             break;
@@ -186,57 +177,65 @@ int main()
             }
             subjectIndex++;
         }
+        Professor p(name, UGCDC, UGELECT, HDCDC, HDELECT, creds);
         professors.emplace_back(p);
     }
     file.close();
+}
 
+int main()
+{
     Course UGCDCcourses[] = {
-        Course("CS F11 CP1", 1),
-        Course("CS F12 CP2", 1),
-        Course("CS F13 CP3", 1),
-        Course("CS F214 LCS", 1),
-        Course("CS F222 DisCo", 1),
-        Course("CS F213 OOP", 1),
-        Course("CS F215 DD", 1),
-        Course("CS F211 DSA", 1),
-        Course("CS F241 MUP", 1),
-        Course("CS F212 DBMS", 1),
-        Course("CS F301 PoPL", 1),
-        Course("CS F342 CompArch", 1),
-        Course("CS F351 ToC", 1),
-        Course("CS F372 OS", 1),
-        Course("CS F303 COMP NETWORKS", 1),
-        Course("CS F363 COMPILER CONSTRUCTION", 1),
-        Course("CS F364 DAA", 1)};
+        Course("CS F11 CP1", 1),                    // index 0
+        Course("CS F12 CP2", 1),                    // index 1
+        Course("CS F13 CP3", 1),                    // index 2
+        Course("CS F214 LCS", 1),                   // index 3
+        Course("CS F222 DisCo", 1),                 // index 4
+        Course("CS F213 OOP", 1),                   // index 5
+        Course("CS F215 DD", 1),                    // index 6
+        Course("CS F211 DSA", 1),                   // index 7
+        Course("CS F241 MUP", 1),                   // index 8
+        Course("CS F212 DBMS", 1),                  // index 9
+        Course("CS F301 PoPL", 1),                  // index 10
+        Course("CS F342 CompArch", 1),              // index 11
+        Course("CS F351 ToC", 1),                   // index 12
+        Course("CS F372 OS", 1),                    // index 13
+        Course("CS F303 COMP NETWORKS", 1),         // index 14
+        Course("CS F363 COMPILER CONSTRUCTION", 1), // index 15
+        Course("CS F364 DAA", 1)};                  // index 16
+
     Course UGELECTcourses[] = {
-        Course("BITS F311 Image Processing", 2),
-        Course("BITS F312 NEURAL NET & FUZZY LOGIC", 2),
-        Course("BITS F343 FUZZY LOGIC & APPL", 2),
-        Course("BITS F364 HUMAN COMP INTERACTION", 2),
-        Course("BITS F386 QUANTUM INFO & COMPUTING", 2),
-        Course("BITS F452 BLOCKCHAIN TECHNOLOGY", 2),
-        Course("BITS F463 CRYPTOGRAPHY", 2),
-        Course("BITS F464 MACHINE LEARNING", 2)};
+        Course("BITS F311 Image Processing", 2),         // index 0
+        Course("BITS F312 NEURAL NET & FUZZY LOGIC", 2), // index 1
+        Course("BITS F343 FUZZY LOGIC & APPL", 2),       // index 2
+        Course("BITS F364 HUMAN COMP INTERACTION", 2),   // index 3
+        Course("BITS F386 QUANTUM INFO & COMPUTING", 2), // index 4
+        Course("BITS F452 BLOCKCHAIN TECHNOLOGY", 2),    // index 5
+        Course("BITS F463 CRYPTOGRAPHY", 2),             // index 6
+        Course("BITS F464 MACHINE LEARNING", 2)};        // index 7
+
     Course HDCDCcourses[] = {
-        Course("CS G513 Network Security", 3),
-        Course("CSG524 Advanced Computer Architecture", 3),
-        Course("CS G525 Advanced Computer Networks", 3),
-        Course("CS G526 Advanced Algorithms and Complexity", 3),
-        Course("CS C623 Advanced Operating Systems", 3)};
+        Course("CS G513 Network Security", 3),                   // index 0
+        Course("CSG524 Advanced Computer Architecture", 3),      // index 1
+        Course("CS G525 Advanced Computer Networks", 3),         // index 2
+        Course("CS G526 Advanced Algorithms and Complexity", 3), // index 3
+        Course("CS C623 Advanced Operating Systems", 3)};        // index 4
+
     Course HDELECTcourses[] = {
-        Course("SS G527 Cloud Computing", 4),
-        Course("BITS G553 Real-Time Systems", 4),
-        Course("CS G553 Reconfigurable Computing", 4),
-        Course("CS G568 Network Security Projec", 4),
-        Course("SS G513 Network Security", 4),
-        Course("CS G523 Software for Embedded Systems", 4),
-        Course("SS G554 Distributed Data Systems", 4)};
+        Course("SS G527 Cloud Computing", 4),               // index 0
+        Course("BITS G553 Real-Time Systems", 4),           // index 1
+        Course("CS G553 Reconfigurable Computing", 4),      // index 2
+        Course("CS G568 Network Security Projec", 4),       // index 3
+        Course("SS G513 Network Security", 4),              // index 4
+        Course("CS G523 Software for Embedded Systems", 4), // index 5
+        Course("SS G554 Distributed Data Systems", 4)};     // index 6
 
     assigningUGCDCcourses(UGCDCcourses, sizeof(UGCDCcourses) / sizeof(UGCDCcourses[0]));
     assigningUGELECTcourses(UGELECTcourses, sizeof(UGELECTcourses) / sizeof(UGELECTcourses[0]));
     assigningHDCDCcourses(HDCDCcourses, sizeof(HDCDCcourses) / sizeof(HDCDCcourses[0]));
     assigningHDELECTcourses(HDELECTcourses, sizeof(HDELECTcourses) / sizeof(HDELECTcourses[0]));
 
+<<<<<<< HEAD
     // vector<Professor> professors{
 
     //     Professor("Prof1", {3, 1, 2}, {2, 0, 1}, {2, 3, 0}, {3, 1, 2}, 1.5),
@@ -277,6 +276,29 @@ int main()
     // Professor("Tanmay Tulsidas Verlekar", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
     // };
     // cout<<"SHOWING PROF\n";
+=======
+    vector<Professor> professors;
+    readFile(professors);
+    freopen("output.txt", "w", stdout);
+
+    for (int i = 0; i < Course::totalUGCDCCourses; i++)
+    {
+        if (Professor::UGCDCallCourse[i].popular == 0)
+        {
+            cout << "\n\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::UGCDCallCourse[i].name << endl;
+            return -1;
+        }
+    }
+    for (int i = 0; i < Course::totalHDCDCCourses; i++)
+    {
+        if (Professor::HDCDCallCourse[i].popular == 0)
+        {
+            cout << "\n\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::HDCDCallCourse[i].name << endl;
+            return -1;
+        }
+    }
+
+>>>>>>> 84f5b535ccbda96d05453c8b4a08365bf0f78c6c
     showProfessors(professors);
     showCourses(Professor::UGCDCallCourse, Professor::UGELECTallCourse, Professor::HDCDCallCourse, Professor::HDELECTallCourse);
 
@@ -285,11 +307,6 @@ int main()
                                       vector<Course>(Professor::UGELECTallCourse, Professor::UGELECTallCourse + Course::totalUGElectCourses),
                                       vector<Course>(Professor::HDCDCallCourse, Professor::HDCDCallCourse + Course::totalHDCDCCourses),
                                       vector<Course>(Professor::HDELECTallCourse, Professor::HDELECTallCourse + Course::totalHDElectCourses));
-
-    auto stop = std::chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
-
-    std::cout << "Time taken by function: " << duration.count() << " microseconds" << std::endl;
 
     return 0;
 }

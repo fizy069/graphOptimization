@@ -12,7 +12,6 @@ public:
     int courseType;
     int popular;
     double creditsAvailableInCourse;
-    static int totalCourses;
     static int totalUGCDCCourses;
     static int totalUGElectCourses;
     static int totalHDCDCCourses;

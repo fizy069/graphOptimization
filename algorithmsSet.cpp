@@ -109,7 +109,7 @@ void AlgorithmsSet::initiateAlgorithms(vector<Professor> professors,
 
     printProfessors(orderedProfessors);
     printCourses();
-    algorithm1(orderedProfessors, OrderedCDCCourses, OrderedElectCourses, 0);
+    algorithm(orderedProfessors, OrderedCDCCourses, OrderedElectCourses, 0); //--------------------------
 
     vector<Professor> orderedProfessorsPermProfessor;
     orderedProfessorsPermProfessor = orderedProfessors;
@@ -122,14 +122,14 @@ void AlgorithmsSet::initiateAlgorithms(vector<Professor> professors,
             if (orderedProfessors[perm].popular == orderedProfessors[j].popular)
             {
                 swap(orderedProfessorsPermProfessor[perm], orderedProfessorsPermProfessor[j]);
-                algorithm1(orderedProfessorsPermProfessor, OrderedCDCCourses, OrderedElectCourses, noOfOutputs);
+                algorithm(orderedProfessorsPermProfessor, OrderedCDCCourses, OrderedElectCourses, noOfOutputs);
                 noOfOutputs++;
             }
         }
     }
 }
 
-void AlgorithmsSet::algorithm1(vector<Professor> OrderedProfessors, vector<Course> CDCCourses, vector<Course> ElectCourses, int noOfOutputs)
+void AlgorithmsSet::algorithm(vector<Professor> OrderedProfessors, vector<Course> CDCCourses, vector<Course> ElectCourses, int noOfOutputs)
 {
 
     for (int combination = 0; combination < 16; combination++)
@@ -458,11 +458,12 @@ void AlgorithmsSet::algorithm1(vector<Professor> OrderedProfessors, vector<Cours
         cout << "\n\n\nOutput: " << 16 * noOfOutputs + combination + 1 << "\n\n";
         for (int i = 0; i < assignedProfessorsWithCourses.size(); i++) // Prints the assigned profs with Courses
         {
-            cout << i + 1 << ". " << assignedProfessorsWithCourses[i].name << ", Credits Available: " << assignedProfessorsWithCourses[i].creditsAvailable << endl;
+            cout << i + 1 << ". " << assignedProfessorsWithCourses[i].name << endl;
             for (int j = 0; j < assignedProfessorsWithCourses[i].assignedCourses.size(); j++)
             {
                 cout << "\t" << j + 1 << ". " << assignedProfessorsWithCourses[i].assignedCourses[j].name << endl;
             }
         }
+        cout << "\nTotal Number of Courses Assigned is: " << Course::totalUGCDCCourses + Course::totalHDCDCCourses + Course::totalUGElectCourses + Course::totalHDElectCourses - OrderedCDCCourses.size() - OrderedElectCourses.size() << endl;
     }
 }
