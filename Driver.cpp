@@ -239,22 +239,22 @@ int main()
     readFile(professors);
     freopen("output.txt", "w", stdout);
 
-    // for (int i = 0; i < Course::totalUGCDCCourses; i++)
-    // {
-    //     if (Professor::UGCDCallCourse[i].popular == 0)
-    //     {
-    //         cout << "\n\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::UGCDCallCourse[i].name << endl;
-    //         return -1;
-    //     }
-    // }
-    // for (int i = 0; i < Course::totalHDCDCCourses; i++)
-    // {
-    //     if (Professor::HDCDCallCourse[i].popular == 0)
-    //     {
-    //         cout << "\n\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::HDCDCallCourse[i].name << endl;
-    //         return -1;
-    //     }
-    // }
+    for (int i = 0; i < Course::totalUGCDCCourses; i++)
+    {
+        if (Professor::UGCDCallCourse[i].popular == 0)
+        {
+            cout << "\n\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::UGCDCallCourse[i].name << endl;
+            return -1;
+        }
+    }
+    for (int i = 0; i < Course::totalHDCDCCourses; i++)
+    {
+        if (Professor::HDCDCallCourse[i].popular == 0)
+        {
+            cout << "\n\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::HDCDCallCourse[i].name << endl;
+            return -1;
+        }
+    }
 
     showProfessors(professors);
     showCourses(Professor::UGCDCallCourse, Professor::UGELECTallCourse, Professor::HDCDCallCourse, Professor::HDELECTallCourse);

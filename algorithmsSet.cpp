@@ -109,7 +109,7 @@ void AlgorithmsSet::initiateAlgorithms(vector<Professor> professors,
 
     printProfessors(orderedProfessors);
     printCourses();
-    algorithm1(orderedProfessors, OrderedCDCCourses, OrderedElectCourses, 0); //--------------------------
+    algorithm(orderedProfessors, OrderedCDCCourses, OrderedElectCourses, 0); //--------------------------
 
     vector<Professor> orderedProfessorsPermProfessor;
     orderedProfessorsPermProfessor = orderedProfessors;
@@ -122,14 +122,14 @@ void AlgorithmsSet::initiateAlgorithms(vector<Professor> professors,
             if (orderedProfessors[perm].popular == orderedProfessors[j].popular)
             {
                 swap(orderedProfessorsPermProfessor[perm], orderedProfessorsPermProfessor[j]);
-                algorithm1(orderedProfessorsPermProfessor, OrderedCDCCourses, OrderedElectCourses, noOfOutputs);
+                algorithm(orderedProfessorsPermProfessor, OrderedCDCCourses, OrderedElectCourses, noOfOutputs);
                 noOfOutputs++;
             }
         }
     }
 }
 
-void AlgorithmsSet::algorithm1(vector<Professor> OrderedProfessors, vector<Course> CDCCourses, vector<Course> ElectCourses, int noOfOutputs)
+void AlgorithmsSet::algorithm(vector<Professor> OrderedProfessors, vector<Course> CDCCourses, vector<Course> ElectCourses, int noOfOutputs)
 {
 
     for (int combination = 0; combination < 16; combination++)

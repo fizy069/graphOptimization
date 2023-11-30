@@ -19,7 +19,7 @@ public:
     static vector<Professor> assignedProfessorsWithCourses;
 
     static void initiateAlgorithms(vector<Professor> professors, vector<Course> UGCDCCourses, vector<Course> UGELECTCourses, vector<Course> HDCDCCourses, vector<Course> HDELECTCourses);
-    static void algorithm1(vector<Professor> OrderedProfessors, vector<Course> CDCCourses, vector<Course> ElectCourses, int noOfOutputs);
+    static void algorithm(vector<Professor> OrderedProfessors, vector<Course> CDCCourses, vector<Course> ElectCourses, int noOfOutputs);
 
     static void printProfessors(vector<Professor> professors);
     static void calcPopularityOfProfOnCDCs(vector<Professor> &professors);
