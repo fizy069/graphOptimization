@@ -109,7 +109,7 @@ void AlgorithmsSet::initiateAlgorithms(vector<Professor> professors,
 
     printProfessors(orderedProfessors);
     printCourses();
-    algorithm1(orderedProfessors, OrderedCDCCourses, OrderedElectCourses, 0);
+    algorithm1(orderedProfessors, OrderedCDCCourses, OrderedElectCourses, 0); //--------------------------
 
     vector<Professor> orderedProfessorsPermProfessor;
     orderedProfessorsPermProfessor = orderedProfessors;
