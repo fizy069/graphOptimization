@@ -22225,5 +22225,5 @@ Output: 304
 	1. CS G568 Network Security Projec
 
 Total Number of Courses Assigned is: 20
-Time effiency: 254.593000 milliseconds
+Time effiency: 214.784000 milliseconds
 
