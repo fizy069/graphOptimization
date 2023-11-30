@@ -29,7 +29,7 @@ Details and Statistics of Professors with Course:  **info.txt**<br>
 #
 
 ### Report: 
-**main.tex**
+**Report.tex**
 #
 ### Video: <br>
 Link:  https://drive.google.com/file/d/1pnB07AI1uryilVRWPRwnj8PPoXKIKrqF/view?usp=sharing <br>
