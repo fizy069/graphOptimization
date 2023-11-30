@@ -442,6 +442,19 @@ void AlgorithmsSet::algorithm(vector<Professor> OrderedProfessors, vector<Course
             }
         }
 
+        // for (int i = 0; i < assignedProfessorsWithCourses.size(); i++)
+        // {
+        //     for (int j = 0; j < assignedProfessorsWithCourses[i].assignedCourses.size(); j++)
+        //     {
+
+        //         if (assignedProfessorsWithCourses[i].assignedCourses[j].popular != 0)
+        //         {
+        //             assignedProfessorsWithCourses[i].assignedCourses.erase(assignedProfessorsWithCourses[i].assignedCourses.begin() + j);
+        //             j--;
+        //         }
+        //     }
+        // }
+
         cout << "\n\n\nOutput: " << 16 * noOfOutputs + combination + 1 << "\n\n";
         for (int i = 0; i < assignedProfessorsWithCourses.size(); i++) // Prints the assigned profs with Courses
         {
