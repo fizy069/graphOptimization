@@ -107,8 +107,8 @@ void AlgorithmsSet::initiateAlgorithms(vector<Professor> professors,
          { return c.popular < d.popular; });
     OrderedElectCourses = ELECTcourses;
 
-    printProfessors(orderedProfessors);
-    printCourses();
+    // printProfessors(orderedProfessors);
+    // printCourses();
     algorithm(orderedProfessors, OrderedCDCCourses, OrderedElectCourses, 0); //--------------------------
 
     vector<Professor> orderedProfessorsPermProfessor;

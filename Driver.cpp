@@ -185,25 +185,19 @@ void readFile(vector<Professor> &professors)
 
 int main()
 {
+    auto start = std::chrono::high_resolution_clock::now();
     Course UGCDCcourses[] = {
-        Course("CS F11 CP1", 1),                    // index 0
-        Course("CS F12 CP2", 1),                    // index 1
-        Course("CS F13 CP3", 1),                    // index 2
-        Course("CS F214 LCS", 1),                   // index 3
-        Course("CS F222 DisCo", 1),                 // index 4
-        Course("CS F213 OOP", 1),                   // index 5
-        Course("CS F215 DD", 1),                    // index 6
-        Course("CS F211 DSA", 1),                   // index 7
-        Course("CS F241 MUP", 1),                   // index 8
-        Course("CS F212 DBMS", 1),                  // index 9
-        Course("CS F301 PoPL", 1),                  // index 10
-        Course("CS F342 CompArch", 1),              // index 11
-        Course("CS F351 ToC", 1),                   // index 12
-        Course("CS F372 OS", 1),                    // index 13
-        Course("CS F303 COMP NETWORKS", 1),         // index 14
-        Course("CS F363 COMPILER CONSTRUCTION", 1), // index 15
-        Course("CS F364 DAA", 1)};                  // index 16
-
+        Course("CS F11 CP1", 1),       // index 0
+        Course("CS F12 CP2", 1),       // index 1
+        Course("CS F13 CP3", 1),       // index 2
+        Course("CS F214 LCS", 1),      // index 3
+        Course("CS F222 DisCo", 1),    // index 4
+        Course("CS F213 OOP", 1),      // index 5
+        Course("CS F215 DD", 1),       // index 6
+        Course("CS F301 PoPL", 1),     // index 7
+        Course("CS F342 CompArch", 1), // index 8
+        Course("CS F351 ToC", 1),      // index 9
+    };
     Course UGELECTcourses[] = {
         Course("BITS F311 Image Processing", 2),         // index 0
         Course("BITS F312 NEURAL NET & FUZZY LOGIC", 2), // index 1
@@ -212,7 +206,7 @@ int main()
         Course("BITS F386 QUANTUM INFO & COMPUTING", 2), // index 4
         Course("BITS F452 BLOCKCHAIN TECHNOLOGY", 2),    // index 5
         Course("BITS F463 CRYPTOGRAPHY", 2),             // index 6
-        Course("BITS F464 MACHINE LEARNING", 2)};        // index 7
+    };
 
     Course HDCDCcourses[] = {
         Course("CS G513 Network Security", 3),                   // index 0
@@ -235,57 +229,14 @@ int main()
     assigningHDCDCcourses(HDCDCcourses, sizeof(HDCDCcourses) / sizeof(HDCDCcourses[0]));
     assigningHDELECTcourses(HDELECTcourses, sizeof(HDELECTcourses) / sizeof(HDELECTcourses[0]));
 
-<<<<<<< HEAD
-    // vector<Professor> professors{
-
-    //     Professor("Prof1", {3, 1, 2}, {2, 0, 1}, {2, 3, 0}, {3, 1, 2}, 1.5),
-    //     Professor("Prof2", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 0.5),
-    //     Professor("Prof3", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
-    //     Professor("Prof4", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-    //     Professor("Prof5", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1}, 0.5),
-    //     Professor("Prof6", {0, 1, 2}, {2, 3, 1}, {3, 1, 2}, {1, 2, 3}, 1.5),
-    //     Professor("Prof7", {1, 3, 0}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1.5),
-    //     Professor("Prof8", {0, 1, 3}, {2, 3, 0}, {2, 3, 0}, {1, 2, 3}, 1),
-    //     Professor("Prof9", {1, 2, 3}, {1, 2, 3}, {3, 2, 0}, {3, 0, 1}, 1)};
-
-    // vector<Professor> professors{
-
-    // Professor("Snehanshu Saha", {4, 5, 3}, {2, 0, 1, 6}, {2, 3, 0}, {3, 1, 2, 4}, 1.5),
-    // Professor("Ramprasad S. Joshi", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 0.5),
-    // Professor("Harikrishnan N. B.", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
-    // Professor("A. Baskar", {1, 3, 2, 4}, {1, 3, 0, 5}, {3, 1, 2}, {1, 2, 3, 4}, 1.5),
-    // Professor("Aditya Challa", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1, 4}, 0.5),
-    // Professor("Arnab Kumar Paul", {0, 1, 2}, {2, 3, 1}, {3, 1, 2}, {1, 2, 3}, 1.5),
-    // Professor("Ashwin Srinivasan", {1, 3, 0}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1.5),
-    // Professor("Biju K. Raveendran Nair", {0, 1, 3}, {2, 3, 0}, {2, 3, 0}, {1, 2, 3}, 1),
-    // Professor("Devashish Gosain", {1, 2, 3}, {1, 2, 3}, {3, 2, 0}, {3, 0, 1}, 1),
-    // Professor("Sougata Sen", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
-    // Professor("Hemant Rathore", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-    // Professor("Basabdatta Bhattacharya", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1}, 0.5),
-    // Professor("Bharat Madhusudan Deshpande", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-    // Professor("Diptendu Chatterjee", {1, 3, 0}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1.5),
-    // Professor("Kanchan Manna", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-    // Professor("Kunal Kishore Korgaonkar", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
-    // Professor("Neena Goveas", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-    // Professor("Rajesh Kumar", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-    // Professor("Santonu Sarkar", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
-    // Professor("Vinayak Naik", {1, 2, 3}, {1, 2, 3}, {3, 2, 0}, {3, 0, 1}, 1),
-    // Professor("Sujith Thomas", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 0.5),
-    // Professor("Swaroop Joshi", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1, 4}, 0.5),
-    // Professor("Swati Agarwal", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-    // Professor("Tanmay Tulsidas Verlekar", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
-    // };
-    // cout<<"SHOWING PROF\n";
-=======
     vector<Professor> professors;
     readFile(professors);
-    freopen("output.txt", "w", stdout);
-
+    FILE *fp = freopen("info.txt", "w", stdout);
     for (int i = 0; i < Course::totalUGCDCCourses; i++)
     {
         if (Professor::UGCDCallCourse[i].popular == 0)
         {
-            cout << "\n\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::UGCDCallCourse[i].name << endl;
+            cout << "\n(Terminating Program)\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::UGCDCallCourse[i].name << endl;
             return -1;
         }
     }
@@ -293,20 +244,32 @@ int main()
     {
         if (Professor::HDCDCallCourse[i].popular == 0)
         {
-            cout << "\n\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::HDCDCallCourse[i].name << endl;
+            cout << "\n(Terminating Program)\nCRASH TEST: NO PROFESSOR HAS TAKEN COURSE " << Professor::HDCDCallCourse[i].name << endl;
             return -1;
         }
     }
 
->>>>>>> 84f5b535ccbda96d05453c8b4a08365bf0f78c6c
+    
+    cout << "Professor preferences : \n";
     showProfessors(professors);
     showCourses(Professor::UGCDCallCourse, Professor::UGELECTallCourse, Professor::HDCDCallCourse, Professor::HDELECTallCourse);
+    fclose(fp);
 
+    FILE *fp2 = freopen("assignments.txt", "w", stdout);
     AlgorithmsSet::initiateAlgorithms(vector<Professor>(professors),
                                       vector<Course>(Professor::UGCDCallCourse, Professor::UGCDCallCourse + Course::totalUGCDCCourses),
                                       vector<Course>(Professor::UGELECTallCourse, Professor::UGELECTallCourse + Course::totalUGElectCourses),
                                       vector<Course>(Professor::HDCDCallCourse, Professor::HDCDCallCourse + Course::totalHDCDCCourses),
                                       vector<Course>(Professor::HDELECTallCourse, Professor::HDELECTallCourse + Course::totalHDElectCourses));
+
+    auto stop = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+
+    string s = "Time effiency: " + to_string(duration.count() / 1000.0) + " milliseconds\n";
+    cout<<s<<endl;
+    fclose(fp2);
+
+    
 
     return 0;
 }

@@ -1,0 +1,479 @@
+Professor preferences : 
+Snehanshu Saha
+	First Degree CDC's
+	1. CS F222 DisCo
+	2. CS F213 OOP
+	3. CS F214 LCS
+	4. CS F301 PoPL
+	First Degree Electives's
+	1. BITS F343 FUZZY LOGIC & APPL
+	2. BITS F311 Image Processing
+	3. BITS F312 NEURAL NET & FUZZY LOGIC
+	4. BITS F463 CRYPTOGRAPHY
+	Higher Degree CDC's
+	1. CS G525 Advanced Computer Networks
+	2. CS G526 Advanced Algorithms and Complexity
+	3. CS G513 Network Security
+	4. CS C623 Advanced Operating Systems
+	Higher Degree Electives's
+	1. CS G568 Network Security Projec
+	2. BITS G553 Real-Time Systems
+	3. CS G553 Reconfigurable Computing
+	4. SS G513 Network Security
+Ramprasad S. Joshi
+	First Degree CDC's
+	1. CS F11 CP1
+	2. CS F12 CP2
+	3. CS F13 CP3
+	4. CS F342 CompArch
+	First Degree Electives's
+	1. BITS F343 FUZZY LOGIC & APPL
+	2. BITS F364 HUMAN COMP INTERACTION
+	3. BITS F311 Image Processing
+	4. BITS F386 QUANTUM INFO & COMPUTING
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CSG524 Advanced Computer Architecture
+	3. CS G525 Advanced Computer Networks
+	Higher Degree Electives's
+	1. BITS G553 Real-Time Systems
+	2. CS G553 Reconfigurable Computing
+	3. CS G568 Network Security Projec
+Harikrishnan N. B.
+	First Degree CDC's
+	1. CS F13 CP3
+	2. CS F214 LCS
+	3. CS F12 CP2
+	4. CS F215 DD
+	First Degree Electives's
+	1. BITS F364 HUMAN COMP INTERACTION
+	2. BITS F312 NEURAL NET & FUZZY LOGIC
+	3. BITS F343 FUZZY LOGIC & APPL
+	4. BITS F386 QUANTUM INFO & COMPUTING
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CS G525 Advanced Computer Networks
+	3. CSG524 Advanced Computer Architecture
+	Higher Degree Electives's
+	1. CS G553 Reconfigurable Computing
+	2. SS G527 Cloud Computing
+	3. BITS G553 Real-Time Systems
+A. Baskar
+	First Degree CDC's
+	1. CS F12 CP2
+	2. CS F214 LCS
+	3. CS F13 CP3
+	4. CS F222 DisCo
+	First Degree Electives's
+	1. BITS F312 NEURAL NET & FUZZY LOGIC
+	2. BITS F364 HUMAN COMP INTERACTION
+	3. BITS F311 Image Processing
+	4. BITS F452 BLOCKCHAIN TECHNOLOGY
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CSG524 Advanced Computer Architecture
+	3. CS G525 Advanced Computer Networks
+	4. CS C623 Advanced Operating Systems
+	Higher Degree Electives's
+	1. BITS G553 Real-Time Systems
+	2. CS G553 Reconfigurable Computing
+	3. CS G568 Network Security Projec
+	4. SS G513 Network Security
+Aditya Challa
+	First Degree CDC's
+	1. CS F13 CP3
+	2. CS F214 LCS
+	3. CS F11 CP1
+	4. CS F351 ToC
+	First Degree Electives's
+	1. BITS F364 HUMAN COMP INTERACTION
+	2. BITS F312 NEURAL NET & FUZZY LOGIC
+	3. BITS F343 FUZZY LOGIC & APPL
+	4. BITS F452 BLOCKCHAIN TECHNOLOGY
+	Higher Degree CDC's
+	1. CS G525 Advanced Computer Networks
+	2. CS G526 Advanced Algorithms and Complexity
+	3. CS G513 Network Security
+	Higher Degree Electives's
+	1. CS G553 Reconfigurable Computing
+	2. SS G527 Cloud Computing
+	3. BITS G553 Real-Time Systems
+	4. SS G513 Network Security
+Arnab Kumar Paul
+	First Degree CDC's
+	1. CS F11 CP1
+	2. CS F12 CP2
+	3. CS F13 CP3
+	4. CS F213 OOP
+	First Degree Electives's
+	1. BITS F343 FUZZY LOGIC & APPL
+	2. BITS F364 HUMAN COMP INTERACTION
+	3. BITS F312 NEURAL NET & FUZZY LOGIC
+	4. BITS F452 BLOCKCHAIN TECHNOLOGY
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CSG524 Advanced Computer Architecture
+	3. CS G525 Advanced Computer Networks
+	Higher Degree Electives's
+	1. BITS G553 Real-Time Systems
+	2. CS G553 Reconfigurable Computing
+	3. CS G568 Network Security Projec
+Ashwin Srinivasan
+	First Degree CDC's
+	1. CS F12 CP2
+	2. CS F214 LCS
+	3. CS F11 CP1
+	4. CS F222 DisCo
+	First Degree Electives's
+	1. BITS F364 HUMAN COMP INTERACTION
+	2. BITS F312 NEURAL NET & FUZZY LOGIC
+	3. BITS F343 FUZZY LOGIC & APPL
+	4. BITS F463 CRYPTOGRAPHY
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CS G525 Advanced Computer Networks
+	3. CSG524 Advanced Computer Architecture
+	Higher Degree Electives's
+	1. CS G553 Reconfigurable Computing
+	2. CS G523 Software for Embedded Systems
+	3. SS G527 Cloud Computing
+	4. BITS G553 Real-Time Systems
+Biju K. Raveendran Nair
+	First Degree CDC's
+	1. CS F11 CP1
+	2. CS F12 CP2
+	3. CS F214 LCS
+	4. CS F215 DD
+	First Degree Electives's
+	1. BITS F343 FUZZY LOGIC & APPL
+	2. BITS F364 HUMAN COMP INTERACTION
+	3. BITS F311 Image Processing
+	4. BITS F386 QUANTUM INFO & COMPUTING
+	Higher Degree CDC's
+	1. CS G525 Advanced Computer Networks
+	2. CS G526 Advanced Algorithms and Complexity
+	3. CS G513 Network Security
+	Higher Degree Electives's
+	1. BITS G553 Real-Time Systems
+	2. CS G553 Reconfigurable Computing
+	3. SS G554 Distributed Data Systems
+	4. CS G568 Network Security Projec
+Devashish Gosain
+	First Degree CDC's
+	1. CS F12 CP2
+	2. CS F13 CP3
+	3. CS F214 LCS
+	First Degree Electives's
+	1. BITS F312 NEURAL NET & FUZZY LOGIC
+	2. BITS F343 FUZZY LOGIC & APPL
+	3. BITS F364 HUMAN COMP INTERACTION
+	4. BITS F386 QUANTUM INFO & COMPUTING
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CS G525 Advanced Computer Networks
+	3. CS G513 Network Security
+	Higher Degree Electives's
+	1. CS G568 Network Security Projec
+	2. SS G527 Cloud Computing
+	3. BITS G553 Real-Time Systems
+Sougata Sen
+	First Degree CDC's
+	1. CS F13 CP3
+	2. CS F214 LCS
+	3. CS F12 CP2
+	First Degree Electives's
+	1. BITS F364 HUMAN COMP INTERACTION
+	2. BITS F312 NEURAL NET & FUZZY LOGIC
+	3. BITS F343 FUZZY LOGIC & APPL
+	4. BITS F364 HUMAN COMP INTERACTION
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CS G525 Advanced Computer Networks
+	3. CSG524 Advanced Computer Architecture
+	Higher Degree Electives's
+	1. CS G553 Reconfigurable Computing
+	2. SS G527 Cloud Computing
+	3. BITS G553 Real-Time Systems
+Hemant Rathore
+	First Degree CDC's
+	1. CS F12 CP2
+	2. CS F214 LCS
+	3. CS F13 CP3
+	First Degree Electives's
+	1. BITS F312 NEURAL NET & FUZZY LOGIC
+	2. BITS F364 HUMAN COMP INTERACTION
+	3. BITS F311 Image Processing
+	4. BITS F386 QUANTUM INFO & COMPUTING
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CSG524 Advanced Computer Architecture
+	3. CS G525 Advanced Computer Networks
+	4. CS C623 Advanced Operating Systems
+	Higher Degree Electives's
+	1. BITS G553 Real-Time Systems
+	2. CS G553 Reconfigurable Computing
+	3. CS G568 Network Security Projec
+Basabdatta Bhattacharya
+	First Degree CDC's
+	1. CS F13 CP3
+	2. CS F214 LCS
+	3. CS F11 CP1
+	First Degree Electives's
+	1. BITS F364 HUMAN COMP INTERACTION
+	2. BITS F312 NEURAL NET & FUZZY LOGIC
+	3. BITS F343 FUZZY LOGIC & APPL
+	4. BITS F452 BLOCKCHAIN TECHNOLOGY
+	Higher Degree CDC's
+	1. CS G525 Advanced Computer Networks
+	2. CS G526 Advanced Algorithms and Complexity
+	3. CS G513 Network Security
+	Higher Degree Electives's
+	1. CS G553 Reconfigurable Computing
+	2. SS G527 Cloud Computing
+	3. BITS G553 Real-Time Systems
+Bharat Madhusudan Deshpande
+	First Degree CDC's
+	1. CS F11 CP1
+	2. CS F12 CP2
+	3. CS F13 CP3
+	First Degree Electives's
+	1. BITS F343 FUZZY LOGIC & APPL
+	2. BITS F364 HUMAN COMP INTERACTION
+	3. BITS F311 Image Processing
+	4. BITS F463 CRYPTOGRAPHY
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CSG524 Advanced Computer Architecture
+	3. CS G525 Advanced Computer Networks
+	Higher Degree Electives's
+	1. SS G554 Distributed Data Systems
+	2. BITS G553 Real-Time Systems
+	3. CS G553 Reconfigurable Computing
+	4. CS G568 Network Security Projec
+Diptendu Chatterjee
+	First Degree CDC's
+	1. CS F12 CP2
+	2. CS F214 LCS
+	3. CS F11 CP1
+	First Degree Electives's
+	1. BITS F364 HUMAN COMP INTERACTION
+	2. BITS F312 NEURAL NET & FUZZY LOGIC
+	3. BITS F343 FUZZY LOGIC & APPL
+	4. BITS F452 BLOCKCHAIN TECHNOLOGY
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CS G525 Advanced Computer Networks
+	3. CSG524 Advanced Computer Architecture
+	Higher Degree Electives's
+	1. CS G553 Reconfigurable Computing
+	2. SS G527 Cloud Computing
+	3. BITS G553 Real-Time Systems
+Kanchan Manna
+	First Degree CDC's
+	1. CS F11 CP1
+	2. CS F12 CP2
+	3. CS F13 CP3
+	First Degree Electives's
+	1. BITS F343 FUZZY LOGIC & APPL
+	2. BITS F364 HUMAN COMP INTERACTION
+	3. BITS F311 Image Processing
+	4. BITS F463 CRYPTOGRAPHY
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CSG524 Advanced Computer Architecture
+	3. CS G525 Advanced Computer Networks
+	Higher Degree Electives's
+	1. BITS G553 Real-Time Systems
+	2. CS G553 Reconfigurable Computing
+	3. CS G568 Network Security Projec
+Kunal Kishore Korgaonkar
+	First Degree CDC's
+	1. CS F13 CP3
+	2. CS F214 LCS
+	3. CS F12 CP2
+	First Degree Electives's
+	1. BITS F364 HUMAN COMP INTERACTION
+	2. BITS F312 NEURAL NET & FUZZY LOGIC
+	3. BITS F343 FUZZY LOGIC & APPL
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CS G525 Advanced Computer Networks
+	3. CSG524 Advanced Computer Architecture
+	4. CS C623 Advanced Operating Systems
+	Higher Degree Electives's
+	1. CS G553 Reconfigurable Computing
+	2. SS G527 Cloud Computing
+	3. BITS G553 Real-Time Systems
+Neena Goveas
+	First Degree CDC's
+	1. CS F12 CP2
+	2. CS F214 LCS
+	3. CS F13 CP3
+	First Degree Electives's
+	1. BITS F312 NEURAL NET & FUZZY LOGIC
+	2. BITS F364 HUMAN COMP INTERACTION
+	3. BITS F311 Image Processing
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CSG524 Advanced Computer Architecture
+	3. CS G525 Advanced Computer Networks
+	Higher Degree Electives's
+	1. BITS G553 Real-Time Systems
+	2. CS G553 Reconfigurable Computing
+	3. CS G568 Network Security Projec
+Rajesh Kumar
+	First Degree CDC's
+	1. CS F11 CP1
+	2. CS F12 CP2
+	3. CS F13 CP3
+	First Degree Electives's
+	1. BITS F343 FUZZY LOGIC & APPL
+	2. BITS F364 HUMAN COMP INTERACTION
+	3. BITS F311 Image Processing
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CSG524 Advanced Computer Architecture
+	3. CS G525 Advanced Computer Networks
+	Higher Degree Electives's
+	1. BITS G553 Real-Time Systems
+	2. CS G553 Reconfigurable Computing
+	3. CS G568 Network Security Projec
+Santonu Sarkar
+	First Degree CDC's
+	1. CS F13 CP3
+	2. CS F214 LCS
+	3. CS F12 CP2
+	First Degree Electives's
+	1. BITS F364 HUMAN COMP INTERACTION
+	2. BITS F312 NEURAL NET & FUZZY LOGIC
+	3. BITS F343 FUZZY LOGIC & APPL
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CS G525 Advanced Computer Networks
+	3. CSG524 Advanced Computer Architecture
+	Higher Degree Electives's
+	1. CS G553 Reconfigurable Computing
+	2. SS G527 Cloud Computing
+	3. BITS G553 Real-Time Systems
+Vinayak Naik
+	First Degree CDC's
+	1. CS F12 CP2
+	2. CS F13 CP3
+	3. CS F214 LCS
+	First Degree Electives's
+	1. BITS F312 NEURAL NET & FUZZY LOGIC
+	2. BITS F343 FUZZY LOGIC & APPL
+	3. BITS F364 HUMAN COMP INTERACTION
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CS G525 Advanced Computer Networks
+	3. CS G513 Network Security
+	4. CS C623 Advanced Operating Systems
+	Higher Degree Electives's
+	1. CS G568 Network Security Projec
+	2. SS G527 Cloud Computing
+	3. BITS G553 Real-Time Systems
+Sujith Thomas
+	First Degree CDC's
+	1. CS F11 CP1
+	2. CS F12 CP2
+	3. CS F13 CP3
+	First Degree Electives's
+	1. BITS F343 FUZZY LOGIC & APPL
+	2. BITS F364 HUMAN COMP INTERACTION
+	3. BITS F311 Image Processing
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CSG524 Advanced Computer Architecture
+	3. CS G525 Advanced Computer Networks
+	Higher Degree Electives's
+	1. CS G523 Software for Embedded Systems
+	2. BITS G553 Real-Time Systems
+	3. CS G553 Reconfigurable Computing
+	4. CS G568 Network Security Projec
+Swaroop Joshi
+	First Degree CDC's
+	1. CS F13 CP3
+	2. CS F214 LCS
+	3. CS F11 CP1
+	First Degree Electives's
+	1. BITS F364 HUMAN COMP INTERACTION
+	2. BITS F312 NEURAL NET & FUZZY LOGIC
+	3. BITS F343 FUZZY LOGIC & APPL
+	Higher Degree CDC's
+	1. CS G525 Advanced Computer Networks
+	2. CS G526 Advanced Algorithms and Complexity
+	3. CS G513 Network Security
+	Higher Degree Electives's
+	1. CS G553 Reconfigurable Computing
+	2. SS G527 Cloud Computing
+	3. BITS G553 Real-Time Systems
+	4. SS G513 Network Security
+Swati Agarwal
+	First Degree CDC's
+	1. CS F12 CP2
+	2. CS F214 LCS
+	3. CS F13 CP3
+	First Degree Electives's
+	1. BITS F312 NEURAL NET & FUZZY LOGIC
+	2. BITS F364 HUMAN COMP INTERACTION
+	3. BITS F311 Image Processing
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CSG524 Advanced Computer Architecture
+	3. CS G525 Advanced Computer Networks
+	Higher Degree Electives's
+	1. BITS G553 Real-Time Systems
+	2. CS G553 Reconfigurable Computing
+	3. CS G568 Network Security Projec
+Tanmay Tulsidas Verlekar
+	First Degree CDC's
+	1. CS F13 CP3
+	2. CS F214 LCS
+	3. CS F12 CP2
+	First Degree Electives's
+	1. BITS F364 HUMAN COMP INTERACTION
+	2. BITS F312 NEURAL NET & FUZZY LOGIC
+	3. BITS F343 FUZZY LOGIC & APPL
+	Higher Degree CDC's
+	1. CS G526 Advanced Algorithms and Complexity
+	2. CS G525 Advanced Computer Networks
+	3. CSG524 Advanced Computer Architecture
+	Higher Degree Electives's
+	1. CS G523 Software for Embedded Systems
+	2. CS G553 Reconfigurable Computing
+	3. SS G527 Cloud Computing
+	4. BITS G553 Real-Time Systems
+First Degree CDC's:
+Name: CS F11 CP1, Popularity: 110
+Name: CS F12 CP2, Popularity: 183
+Name: CS F13 CP3, Popularity: 178
+Name: CS F214 LCS, Popularity: 158
+Name: CS F222 DisCo, Popularity: 24
+Name: CS F213 OOP, Popularity: 16
+Name: CS F215 DD, Popularity: 14
+Name: CS F301 PoPL, Popularity: 7
+Name: CS F342 CompArch, Popularity: 7
+Name: CS F351 ToC, Popularity: 7
+First Degree Electives:
+Name: BITS F311 Image Processing, Popularity: 56
+Name: BITS F312 NEURAL NET & FUZZY LOGIC, Popularity: 112
+Name: BITS F343 FUZZY LOGIC & APPL, Popularity: 118
+Name: BITS F364 HUMAN COMP INTERACTION, Popularity: 150
+Name: BITS F386 QUANTUM INFO & COMPUTING, Popularity: 20
+Name: BITS F452 BLOCKCHAIN TECHNOLOGY, Popularity: 20
+Name: BITS F463 CRYPTOGRAPHY, Popularity: 16
+Higher Degree CDC's:
+Name: CS G513 Network Security, Popularity: 21
+Name: CSG524 Advanced Computer Architecture, Popularity: 61
+Name: CS G525 Advanced Computer Networks, Popularity: 91
+Name: CS G526 Advanced Algorithms and Complexity, Popularity: 115
+Name: CS C623 Advanced Operating Systems, Popularity: 10
+Higher Degree Electives:
+Name: SS G527 Cloud Computing, Popularity: 70
+Name: BITS G553 Real-Time Systems, Popularity: 139
+Name: CS G553 Reconfigurable Computing, Popularity: 138
+Name: CS G568 Network Security Projec, Popularity: 73
+Name: SS G513 Network Security, Popularity: 16
+Name: CS G523 Software for Embedded Systems, Popularity: 20
+Name: SS G554 Distributed Data Systems, Popularity: 12
