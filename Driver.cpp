@@ -187,13 +187,8 @@ int main()
             subjectIndex++;
         }
         professors.emplace_back(p);
-
-<<<<<<< HEAD
-        inputFile.close();
-        == == == =
     }
     file.close();
->>>>>>> f6c08b854420932aa4e3d98ea16b76d18b4c15e6
 
     Course UGCDCcourses[] = {
         Course("CS F11 CP1", 1),
@@ -243,7 +238,7 @@ int main()
     assigningHDELECTcourses(HDELECTcourses, sizeof(HDELECTcourses) / sizeof(HDELECTcourses[0]));
 
     // vector<Professor> professors{
-<<<<<<< HEAD
+
     //     Professor("Prof1", {3, 1, 2}, {2, 0, 1}, {2, 3, 0}, {3, 1, 2}, 1.5),
     //     Professor("Prof2", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 0.5),
     //     Professor("Prof3", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
@@ -255,35 +250,34 @@ int main()
     //     Professor("Prof9", {1, 2, 3}, {1, 2, 3}, {3, 2, 0}, {3, 0, 1}, 1)};
 
     // vector<Professor> professors{
-    == == == =
->>>>>>> f6c08b854420932aa4e3d98ea16b76d18b4c15e6
-                 // Professor("Snehanshu Saha", {4, 5, 3}, {2, 0, 1, 6}, {2, 3, 0}, {3, 1, 2, 4}, 1.5),
-                 // Professor("Ramprasad S. Joshi", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 0.5),
-                 // Professor("Harikrishnan N. B.", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
-                 // Professor("A. Baskar", {1, 3, 2, 4}, {1, 3, 0, 5}, {3, 1, 2}, {1, 2, 3, 4}, 1.5),
-                 // Professor("Aditya Challa", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1, 4}, 0.5),
-                 // Professor("Arnab Kumar Paul", {0, 1, 2}, {2, 3, 1}, {3, 1, 2}, {1, 2, 3}, 1.5),
-                 // Professor("Ashwin Srinivasan", {1, 3, 0}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1.5),
-                 // Professor("Biju K. Raveendran Nair", {0, 1, 3}, {2, 3, 0}, {2, 3, 0}, {1, 2, 3}, 1),
-                 // Professor("Devashish Gosain", {1, 2, 3}, {1, 2, 3}, {3, 2, 0}, {3, 0, 1}, 1),
-                 // Professor("Sougata Sen", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
-                 // Professor("Hemant Rathore", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-                 // Professor("Basabdatta Bhattacharya", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1}, 0.5),
-                 // Professor("Bharat Madhusudan Deshpande", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-                 // Professor("Diptendu Chatterjee", {1, 3, 0}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1.5),
-                 // Professor("Kanchan Manna", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-                 // Professor("Kunal Kishore Korgaonkar", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
-                 // Professor("Neena Goveas", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-                 // Professor("Rajesh Kumar", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-                 // Professor("Santonu Sarkar", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
-                 // Professor("Vinayak Naik", {1, 2, 3}, {1, 2, 3}, {3, 2, 0}, {3, 0, 1}, 1),
-                 // Professor("Sujith Thomas", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 0.5),
-                 // Professor("Swaroop Joshi", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1, 4}, 0.5),
-                 // Professor("Swati Agarwal", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
-                 // Professor("Tanmay Tulsidas Verlekar", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
-                 // };
-                 // cout<<"SHOWING PROF\n";
-        showProfessors(professors);
+
+    // Professor("Snehanshu Saha", {4, 5, 3}, {2, 0, 1, 6}, {2, 3, 0}, {3, 1, 2, 4}, 1.5),
+    // Professor("Ramprasad S. Joshi", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 0.5),
+    // Professor("Harikrishnan N. B.", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
+    // Professor("A. Baskar", {1, 3, 2, 4}, {1, 3, 0, 5}, {3, 1, 2}, {1, 2, 3, 4}, 1.5),
+    // Professor("Aditya Challa", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1, 4}, 0.5),
+    // Professor("Arnab Kumar Paul", {0, 1, 2}, {2, 3, 1}, {3, 1, 2}, {1, 2, 3}, 1.5),
+    // Professor("Ashwin Srinivasan", {1, 3, 0}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1.5),
+    // Professor("Biju K. Raveendran Nair", {0, 1, 3}, {2, 3, 0}, {2, 3, 0}, {1, 2, 3}, 1),
+    // Professor("Devashish Gosain", {1, 2, 3}, {1, 2, 3}, {3, 2, 0}, {3, 0, 1}, 1),
+    // Professor("Sougata Sen", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
+    // Professor("Hemant Rathore", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
+    // Professor("Basabdatta Bhattacharya", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1}, 0.5),
+    // Professor("Bharat Madhusudan Deshpande", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
+    // Professor("Diptendu Chatterjee", {1, 3, 0}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1.5),
+    // Professor("Kanchan Manna", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
+    // Professor("Kunal Kishore Korgaonkar", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
+    // Professor("Neena Goveas", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
+    // Professor("Rajesh Kumar", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
+    // Professor("Santonu Sarkar", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
+    // Professor("Vinayak Naik", {1, 2, 3}, {1, 2, 3}, {3, 2, 0}, {3, 0, 1}, 1),
+    // Professor("Sujith Thomas", {0, 1, 2}, {2, 3, 0}, {3, 1, 2}, {1, 2, 3}, 0.5),
+    // Professor("Swaroop Joshi", {2, 3, 0}, {3, 1, 2}, {2, 3, 0}, {2, 0, 1, 4}, 0.5),
+    // Professor("Swati Agarwal", {1, 3, 2}, {1, 3, 0}, {3, 1, 2}, {1, 2, 3}, 1.5),
+    // Professor("Tanmay Tulsidas Verlekar", {2, 3, 1}, {3, 1, 2}, {3, 2, 1}, {2, 0, 1}, 1),
+    // };
+    // cout<<"SHOWING PROF\n";
+    showProfessors(professors);
     showCourses(Professor::UGCDCallCourse, Professor::UGELECTallCourse, Professor::HDCDCallCourse, Professor::HDELECTallCourse);
 
     AlgorithmsSet::initiateAlgorithms(vector<Professor>(professors),
