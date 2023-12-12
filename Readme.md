@@ -2,7 +2,7 @@
 
 This program attempts to solve the university Course Assignment problem using a greedy algorithmic approach. All feasible assigments (considering preference list of faculty, course availability and faculty categor) are given in the output file. <br><br>
 
-**Contributors :**
+**Contributors :**<br>
 **Mahir Ghadiali**<br>
 **Michael Lewis**<br>
 **Jainam Shah**<br>
