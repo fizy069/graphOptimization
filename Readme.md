@@ -1,11 +1,11 @@
 # Application of Graph Optimization
 
-Welcome to An Application of Graph Optimization-Course DISCO Course Project GitHub Repository!<br> This repository contains the source code for a C++ program. <br><br>
+This program attempts to solve the university Course Assignment problem using a greedy algorithmic approach. All feasible assigments (considering preference list of faculty, course availability and faculty category). <br><br>
 
-
-**Michael Lewis: 2022A7PS1348G**<br>
-**Mahir Jimit Ghadiali: 2022A7PS1274G**<br>
-**Jainam Shah: 2022A7PS1182G**<br>
+**Contributors :**
+**Mahir Ghadiali**<br>
+**Michael Lewis**<br>
+**Jainam Shah**<br>
 
 
 ## Instructions 
